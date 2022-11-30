@@ -1,0 +1,5 @@
+class SandboxService
+{
+    SLOT(QString fileOutgoing(QString sandboxId, QString path))
+    SIGNAL(fileOutgoingDone(QString sandboxId, QString path))
+}
